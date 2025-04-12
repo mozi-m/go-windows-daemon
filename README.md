@@ -22,7 +22,7 @@ func main() {
     // init code
 
     if os.Getenv("GO_ENV_DAEMON") == "" {
-        daemon() // spaw child and exit parent
+        daemon() // spawn child and exit parent
     }
 
     // rest of logic code
