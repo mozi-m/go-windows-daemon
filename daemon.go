@@ -31,7 +31,7 @@ func daemon() {
 
 func main() {
   if os.Getenv("GO_ENV_DAEMON") == "" {
-        daemon() // spaw child and exit parent
+        daemon() // spawn child and exit parent
     }
 
   // Rest of your application logic goes here.
